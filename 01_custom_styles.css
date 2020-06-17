@@ -1,0 +1,22 @@
+/* In this file you can overwrite/extend the given magpie-styles or declare your own ones */
+
+/* Example of extending a given magpie-style */
+
+.magpie-view-stimulus-container {
+    height: 0px;
+}
+
+/* Display all titles in red */
+/*.magpie-view-title {
+    color: red;
+}*/
+
+/* Example of declaring your own style */
+.custom-border {
+   border: 1px solid powderblue;
+}
+
+/* extend space for view question */
+.magpie-view-question{
+  padding: 50px;
+}
